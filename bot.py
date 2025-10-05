@@ -147,7 +147,7 @@ def create_currency_keyboard(selected_currency=None, step=1, conversion_type='no
         keyboard.add(InlineKeyboardButton("📋 Все валюты",
                                           callback_data=f"{conversion_type}_all_currencies_to_{selected_currency}"))
 
-    keyboard.add(InlineKeyboardButton("❌ Отмена", callback_data="cancel"))
+    keyboard.add(InlineKeyboardButton("Отмена", callback_data="cancel"))
 
     return keyboard
 
@@ -589,4 +589,5 @@ def create_reverse_conversion_text(desired_amount, to_currency, required_amount,
 if __name__ == "__main__":
     print("Точно в Курсе запущен и готов к работе!")
     print("Бот ожидает сообщений")
+
     bot.infinity_polling()
