@@ -2,6 +2,12 @@
 
 Телеграм-бот для конвертации валют и получения актуальных курсов.
 
+
+<img width="657" height="722" alt="image" src="https://github.com/user-attachments/assets/1901dcea-791e-4e28-958a-0a166abb9003" />
+
+
+
+
 Используемые технологии:
 
 * Python 3.12
